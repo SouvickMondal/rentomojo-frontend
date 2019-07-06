@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class AuthService {
   
-  private BASE_URL: String = "http://b20849a1.ngrok.io";
+  private BASE_URL: String = "https://rentomojo-backend.herokuapp.com";
   private TOKEN_KEY: string = 'token';
 
 constructor(private _route:Router,private _http: HttpClient){}
