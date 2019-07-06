@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class DataService {
 
-    private BASE_URL: String = "hhttps://rentomojo-backend.herokuapp.com";
+    private BASE_URL: String = "https://rentomojo-backend.herokuapp.com";
     constructor(private _route: Router, private _http: HttpClient) { }
 
     downvote(id: any) {
